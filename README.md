@@ -3,7 +3,11 @@ Hi,
 So i have a window called word and what it do is you type a word inside a text Field and the programme search for the document that have this word and display it in a table.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 so i made the window "Word.java" with a table and a Object Path, and i have 2 function IndexFiles.java and SearchFiles.java.
+
+
 1)the first one index the document.
+
+
 2)the seacond one search for the word and print the path of every document that contined the word.
 
 # When I click on the button search:
