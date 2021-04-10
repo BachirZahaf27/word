@@ -71,14 +71,19 @@ public class Word {
         
         frame.add(Search);
         
-        Object[] row = new Object[4];
-        //search
+        Object[] row = new Object[1];
+        //Search for the word
         Search.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 
                 
-                row[0]=txt_search.getText();
+                String word=txt_search.getText();// this to put the word that we are searching for into a string so we can put it on the function SearchFiles.java
+                //NOW HERE WE HAVE TO CALL THE FUNCTIONS IndexFiles.JAVA 
+                //IndexFiles index=new IndexFiles();
+                //NOW HERE WE HAVE TO CALL THE FUNCTIONS SearchFiles.JAVA
+                //SearchFiles search=SearchFiles(String word);                                 // and we have to put the varible tha we are searching for
+                //row[0]=search.getText();// and now we can put the result in the table
 
                 model.addRow(row);
             }
